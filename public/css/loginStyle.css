@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+
+/* .main {
+ 
+  position: absolute;
+ 
+  justify-self: center;
+  margin: auto;
+  vertical-align: center;
+} */
+
+.mainCenter {
+  border-radius: .5rem;
+  top: 50;
+  border: 2px solid red;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.main {
+  margin: auto;
+  width: 60%;
+  padding-top: 45%;
+}

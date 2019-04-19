@@ -1,0 +1,26 @@
+{
+  "name": "shpo_it",
+  "version": "1.0.0",
+  "description": "The Ecommerse website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Himanshu Nautiyal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-mongodb-session": "^2.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "nodemon": "^1.18.10"
+  }
+}

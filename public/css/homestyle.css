@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.singleEntry{
+    background-color: green;
+    width: 100%;
+ 
+    overflow: auto;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+}   
+.singleEntry a{
+  
+    padding: 10px;
+  
+   
+}
+.authBtns{
+    width:20%;
+    float: right;
+    
+}

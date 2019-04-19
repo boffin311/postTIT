@@ -1,0 +1,41 @@
+.formContainer {
+width: 100%;
+text-align: center;
+}
+
+.innerdiv {
+   margin: 2%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.048);
+   padding: 5%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.inputFields {
+margin: 1%;
+width: 80%;
+padding: 1%;    
+
+}
+.formContainer textarea{
+    height: 300px;
+}
+
+.uploadDiv{
+    padding: 2rem;
+}
+.btnUpload{
+    margin-top: 2%;
+
+}
+.btnSubmit{
+    padding: 5px 4rem ;
+    border: 2px solid rgba(83, 83, 83, 0.507);
+    border-radius: 5px;
+    background: rgba(196, 187, 187, 0.404);
+    
+}
+.divauth{
+    color: black;
+}
