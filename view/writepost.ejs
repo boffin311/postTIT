@@ -75,7 +75,7 @@
                 <div class=" container inputFields uploadDiv">
                     <img  src="/images/upload-cloud.png" alt="the cart Image" height="50px" width="70px">
                     <br>
-                    <input class="btnUpload" id="btnUpload"  type="button"onclick="uploadImage()" value="Choose the photo to upload">
+                    <input class="btnUpload" id="btnUpload"  type="button" value="Choose the photo to upload">
                 </div>
                   <br>
                   <textarea class="inputFields"name="post" placeholder="Write the post here......"></textarea>
@@ -86,14 +86,14 @@
             </div>
         </main>
 
-        <script>
-            const btnUpload = document.getElementById('btnUpload')
+        <script src="/javascript/uploadFile.js">
+            // const btnUpload = document.getElementById('btnUpload')
 
-            let uploadImage = () => {
-                window.alert("The choose button is clicked")
-            }
+            // let uploadImage = () => {
+            //     window.alert("The choose button is clicked")
+            // }
 
-            btnUpload.addEventListener('onclick', uploadImage)
+            // btnUpload.addEventListener('onclick', uploadImage)
         </script>
 </body>
 </html>
