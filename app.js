@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const path = require('path')
+var PORT=process.env.PORT ||5000
 const session = require('express-session')
 const logOutRoutes=require('./routes/loginRoutes')
 const MongodbConnectSession = require('connect-mongodb-session')(session)
@@ -33,7 +34,7 @@ app.use(allPostRoutes)
 
 mongooseConnection.then(result => {
     // console.log(result)
-    app.listen(8080,()=>{
+    app.listen(PORT,()=>{
         console.log("server running at port:8080")
     })
 }).catch(err => {
