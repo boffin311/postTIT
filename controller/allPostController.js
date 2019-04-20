@@ -8,7 +8,7 @@ module.exports.getAllPosts=(req,res,next)=>{
      else{
          res.json(result)
      }
-    res.json(result)
+    
     }).catch((err) => {
         console.log(err)
     });

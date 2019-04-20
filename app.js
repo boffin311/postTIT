@@ -35,7 +35,7 @@ app.use(allPostRoutes)
 mongooseConnection.then(result => {
     // console.log(result)
     app.listen(PORT,()=>{
-        console.log("server running at port:8080")
+        console.log("server running at port:5000")
     })
 }).catch(err => {
     console.log(err)
